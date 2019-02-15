@@ -16,7 +16,6 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import com.micode.webapp.service.WxJssdkService;
 
         
-  
 @Controller
 public class JssdkController {
   
