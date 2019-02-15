@@ -21,7 +21,6 @@ public class JssdkController {
   
 	@Autowired 
 	WxJssdkService wxJssdkService;
-	
 	@PostMapping("/jssdkconfig")
 	@ResponseBody  
 	public Map<String, Object> getconf(HttpServletRequest request,String url){
